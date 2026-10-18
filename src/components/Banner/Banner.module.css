@@ -150,11 +150,14 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  background-image: linear-gradient(
-    180deg,
-    transparent,
-    rgba(37, 37, 37, 0.61),
-    #111
-  );
-  width: 100%;
+
+  .fadeBottom {
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+    width: 100%;
+  }
 }

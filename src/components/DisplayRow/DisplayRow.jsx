@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SlideShow from '../SlideShow/SlideShow'
 // import {movies} from '../../Data/Data'
 import movieInstance from '../../Utility/MovieInstance.js'
-import requests from '../../utility/requestUrls.js'
+import requests from '../../Utility/requestUrls.js'
 export default function DisplayRow() {
   // this is where we will fetch the data from the api and store it in the state and then pass it to the SlideShow component
   const [movies,setMovies]=useState({
